@@ -51,7 +51,7 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">GenerateTimetable</a></li>
+          <li><a class="nav-link scrollto" href="#GenerateTimetable">GenerateTimetable</a></li>
           <li><a class="nav-link scrollto" href="#facultyHelp">FacultyHelp</a></li>
           <li><a class="nav-link scrollto " href="http://localhost:3000/">DiscussionForrum</a></li>
           <li><a class="nav-link scrollto" href="#studyMaterial">StudyMaterial</li>
@@ -129,93 +129,169 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
+
+
+    <section id="GenerateTimetable" class="GenerateTimetable">
       <div class="container">
-
-        <div class="row no-gutters">
-          <div class="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
-          <div class="col-xl-7 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch">
-            <div class="content d-flex flex-column justify-content-center">
-              <h3>About Us</h3>
-              <p>
-                We are an all in one package for your studies. We provide automatically generated time table as well as pdfs and video links all for Free for our students of class 10th, 12th and those appearing for JEE.</p>
-                <p>
-                <b>OUR AIM </b> is to increase job opportunities for college students with expertise and retired teachers as well help school students divide their time and stay motivated.  
-              </p>
-              <div class="row">
-                <div class="col-md-6 icon-box">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Generate TimeTable</h4>
-                  <p>we will automatically generate timetable based on your deadline and subject prioroty.</p>
-                </div>
-                <div class="col-md-6 icon-box">
-                  <i class="bx bx-images"></i>
-                  <h4>Reference Material</h4>
-                  <p> We provide subject-wise reference materials. Which includes both PDF and videos. </p>
-                </div>
-                <div class="col-md-6 icon-box">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Group Discussion</h4>
-                  <p>You can have discussions with other students of your stream through this forum where you can discuss their study pattern.</p>
-                </div>
-                <div class="col-md-6 icon-box">
-                  <i class="bx bx-shield"></i>
-                  <h4>Mentor Help</h4>
-                  <p>Incase you are still stuck on some topic, then you can check the mentor help section. You can pay a small fee to learn LIVE from our mentors. </p>
-                </div>
-              </div>
-            </div><!-- End .content-->
-          </div>
-        </div>
-
+        <h1>Generate your own timetable</h1>
+        <h4>Enter subject according to priority</h4>
+<form class="form-horizontal" action="/action_page.php">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="email">Priority1:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="email" placeholder="Enter subject">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Priority2:</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter subject">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Priority3:</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter subject">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Priority4:</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter subject">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="pwd">Priority5:</label>
+    <div class="col-sm-10">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter subject">
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <button type="submit" class="btn btn-default">Create TimeTable</button>
+    </div><br>
+  </div>
+</form>
+        <table  cellspacing="0" class="table table-bordered" >
+          <!--<caption>Timetable</caption>-->
+          <tr>
+              <td height="50" 
+                  width="100"><br>
+                  <b>Day/Period</b></br>
+              </td>
+              <td  height="50" 
+                  width="100">
+                  <b>I<br>9:30-10:20</b>
+              </td>
+              <td  height="50" 
+                  width="100">
+                  <b>II<br>10:20-11:10</b>
+              </td>
+              <td  height="50" 
+                  width="100">
+                  <b>III<br>11:10-12:00</b>
+              </td>
+              <td  height="50" 
+                  width="100">
+                  <b>12:00-12:40</b>
+              </td>
+              <td  height="50" 
+                  width="100">
+                  <b>IV<br>12:40-1:30</b>
+              </td>
+              <td  height="50" 
+                  width="100">
+                  <b>V<br>1:30-2:20</b>
+              </td>
+              <td  height="50" 
+                  width="100">
+                  <b>VI<br>2:20-3:10</b>
+              </td>
+              <td  height="50" 
+                  width="100">
+                  <b>VII<br>3:10-4:00</b>
+              </td>
+          </tr>
+          <tr>
+              <td  height="50">
+                  <b>Monday</b></td>
+              <td  height="50">Eng</td>
+              <td  height="50">Mat</td>
+              <td  height="50">Che</td>
+              <td rowspan="6"  height="50">
+                  <h2>L<br>U<br>N<br>C<br>H</h2>
+              </td>
+              <td colspan="3"  
+                  height="50">LAB</td>
+              <td  height="50">Phy</td>
+          </tr>
+          <tr>
+              <td  height="50">
+                  <b>Tuesday</b>
+              </td>
+              <td colspan="3"  
+                  height="50">LAB
+              </td>
+              <td  height="50">Eng</td>
+              <td  height="50">Che</td>
+              <td  height="50">Mat</td>
+              <td  height="50">SPORTS</td>
+          </tr>
+          <tr>
+              <td  height="50">
+                  <b>Wednesday</b>
+              </td>
+              <td  height="50">Mat</td>
+              <td  height="50">phy</td>
+              <td height="50">Eng</td>
+              <td  height="50">Che</td>
+              <td colspan="3" 
+                  height="50">LIBRARY
+              </td>
+          </tr>
+          <tr>
+              <td  height="50">
+                  <b>Thursday</b>
+              </td>
+              <td  height="50">Phy</td>
+              <td height="50">Eng</td>
+              <td  height="50">Che</td>
+              <td colspan="3" 
+                  height="50">LAB
+              </td>
+              <td  height="50">Mat</td>
+          </tr>
+          <tr>
+              <td  height="50">
+                  <b>Friday</b>
+              </td>
+              <td colspan="3" 
+                  height="50">LAB
+              </td>
+              <td  height="50">Mat</td>
+              <td  height="50">Che</td>
+              <td height="50">Eng</td>
+              <td  height="50">Phy</td>
+          </tr>
+          <tr>
+              <td  height="50">
+                  <b>Saturday</b>
+              </td>
+              <td  height="50">Eng</td>
+              <td  height="50">Che</td>
+              <td  height="50">Mat</td>
+              <td colspan="3" 
+                  height="50">SEMINAR
+              </td>
+              <td height="50">SPORTS</td>
+          </tr>
+        </table>
       </div>
-    </section><!-- End About Section -->
+    </section>
 
-    <!-- ======= Counts Section ======= -->
-    <!--section id="counts" class="counts">
-      <div class="container">
 
-        <div class="row no-gutters">
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Happy Clients</strong> consequuntur quae</p>
-            </div>
-          </div>
 
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Projects</strong> adipisci atque cum quia aut</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hours Of Support</strong> aut commodi quaerat</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-              <p><strong>Hard Workers</strong> rerum asperiores dolor</p>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section--><!-- End Counts Section -->
-
-    <!-- ======= sign up Section ======= -->
 <section id="facultyHelp">
 
   <div class="container">
