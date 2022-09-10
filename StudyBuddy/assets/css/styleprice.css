@@ -1,0 +1,153 @@
+
+.pricing .box {
+  padding: 20px;
+  background: #f7f7f7;
+  text-align: center;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+}
+
+.pricing .box h3 {
+  font-weight: 400;
+  padding: 15px;
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #2a2a2a;
+}
+
+.pricing .box h4 {
+  font-size: 42px;
+  color: #5c9f24;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.pricing .box h4 sup {
+  font-size: 20px;
+  top: -15px;
+  left: -3px;
+}
+
+.pricing .box h4 span {
+  color: #bababa;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.pricing .box ul {
+  padding: 0;
+  list-style: none;
+  color: #2a2a2a;
+  text-align: center;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.pricing .box ul li {
+  padding-bottom: 16px;
+}
+
+.pricing .box ul i {
+  color: #5c9f24;
+  font-size: 18px;
+  padding-right: 4px;
+}
+
+.pricing .box ul .na {
+  color: #ccc;
+  text-decoration: line-through;
+}
+
+.pricing .box .btn-wrap {
+  padding: 15px;
+  text-align: center;
+}
+
+.pricing .box .btn-buy {
+  display: inline-block;
+  padding: 10px 40px 12px 40px;
+  border-radius: 4px;
+  border: 2px solid #5c9f24;
+  color: #5c9f24;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.pricing .box .btn-buy:hover {
+  background: #5c9f24;
+  color: #fff;
+}
+
+.pricing .recommended {
+  background: #5c9f24;
+}
+
+.pricing .recommended h3, .pricing .recommended h4, .pricing .recommended h4 span, .pricing .recommended ul, .pricing .recommended ul .na {
+  color: #fff;
+}
+
+
+.pricing .recommended .btn-buy {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
+
+.pricing .recommended .btn-buy:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #5c9f24;
+}
+
+
+
+section {
+  padding: 30px 0;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h1 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+  color:#5c9f24;
+  background-color:  #f7f7f7;
+  padding: 10px;
+
+}
+.section-title h2{
+  text-transform: capitalize;
+
+}
+.section-title p {
+  margin-bottom: 0;
+  font-size: 15px;
+}
+
+.button{
+  display: inline-block;
+  padding: 8px 25px;
+  border-radius: 4px;
+  border: 2px solid   #f7f7f7;
+  background-color:  #5c9f24;
+  margin: 10px;
+
+}
+
+.button a{
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
